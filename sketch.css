@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('https://lh3.googleusercontent.com/gJre_caTs-rqujM-LZSg9H3_Z2MUs6W0lP0wfg64QOkzJu8e_FelnTS4D1sSRnljjTLbeRfxvvXPmHdc4_w7mtoTUNjW6D5Dna3HHu60bciuKU8o--GXK6Nhz3avbv8ukW2kuc21qg=w2400'); /*Seeting the background image. Ypu can change this by changing the link!*/
+    background-image: url('https://img.freepik.com/free-vector/seamless-pattern_1159-5086.jpg?size=626&ext=jpg'); /*Seeting the background image. Ypu can change this by changing the link!*/
     background-size: cover;
     background-size: 100% 100%;
     margin: 0rem; /* see referance for how padding and margins apply */
@@ -116,45 +116,52 @@ body
 .container1 
 {
   position: relative;
+  width: 530px;
+  height: 400px;
   padding:5px;
   display: inline-block;
-  width:48%;
 }
 
 .container2 
 {
+  width: 530px;
+  height: 430px;
   padding: 5px;
   position: relative;
   display: inline-block;
-  width:48%;
 }
 .container3
 {
+  width: 500px;
+  height: 400px;
   position: relative;
   display: inline-block;
-  width:49%;
 }
 
 .container4 
 {
+  width: 500px;
+  height: 550px;
   position: relative;
   display: inline-block;
-  width:48%;
 }
 
 .container5
 {
   padding: 5px;
+  width: 530px;
+  height: 400px;
   position: relative;
   display: inline-block;
-  width:45%;
 }
 
 .container6 
 {
+  padding: 5px;
+  width: 530px;
+  height: 430px;
   position: relative;
   display: inline-block;
-  width:48%;
 }
 
 .image 
@@ -221,4 +228,10 @@ body
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+image
+{
+  max-width: 30%;
+  padding: 10px;
 }
